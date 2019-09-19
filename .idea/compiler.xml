@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="guice-bar" />
+        <module name="testing-patterns" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="guice-bar" target="1.8" />
+      <module name="testing-patterns" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

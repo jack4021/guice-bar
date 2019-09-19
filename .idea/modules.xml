@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/guice-bar.iml" filepath="$PROJECT_DIR$/.idea/guice-bar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testing-patterns.iml" filepath="$PROJECT_DIR$/testing-patterns.iml" />
     </modules>
   </component>
 </project>

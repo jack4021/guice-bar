@@ -1,11 +1,10 @@
 package com.bhj.guice.maps;
 
 import javax.inject.Provider;
-import java.util.Map;
 
-public class SystemVariableProvider implements Provider<Map<String, String>> {
+public class SystemVariableProvider implements Provider<SystemVariableMap> {
     @Override
-    public Map<String, String> get() {
-        return System.getenv();
+    public SystemVariableMap get() {
+        return new SystemVariableMap(System.getenv());
     }
 }
